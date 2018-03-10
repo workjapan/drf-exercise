@@ -1,6 +1,6 @@
 #  DRF Exercise
 
-This is a simple SRF exercise that requires you to build a database and an API on top of the provided dataset.
+This is a simple DRF exercise that requires you to build a database and an API on top of the provided dataset.
 
 ## Data Details
 
@@ -60,10 +60,10 @@ This is a simple SRF exercise that requires you to build a database and an API o
  - Follow standard REST architecture for url structure and API design.
  - Follow PEP8.
  - Either Python 2.7.x or 3.6 is fine. 3.6 is preferred.
- - You can create a github repo and push the code there and then share the repo url, and add [@iambibhas](https://github.com/iambibhas) as a collaborator so that I receive the notification.
+ - You can create a github repo and push the code there and then share the repo url.
 
 ## Assessment
 
- - Document how you imported the data. Add the data import script(s) in the repo, preferably as a management command.
- - You can either run the application locally and use something like `ngrok` to demo it, or include the db dump so that we can import the dump to our local db and run our own local server based on your code. (`./manage.py runserver`)
+ - Document how you imported the data. Add the data import script(s) in the repo, preferably as a custom Django management command.
+ - Document how to run your code on our local machine.
  - Clean readable code is preferred over a feature rich app.
